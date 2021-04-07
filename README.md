@@ -15,11 +15,11 @@ SETUP :
 - "Execute" database.sql
 
 TO TEST :
-Username : robby
-Password : password (yes, definitely the best password ever)
+- Username : robby
+- Password : password (yes, definitely the best password ever)
 
 NOTE :
-UserData are sanitized in the model just before being used
-UserData is sanitized only before inserting in DB if possible though prepared requests are used 
-BCrypt is used for password encryption
-JWT is used for authentication purpose which is better than session for an API
+- UserData are sanitized in the model just before being used
+- UserData is sanitized only before inserting in DB if possible though prepared requests are used 
+- BCrypt is used for password encryption
+- JWT is used for authentication purpose which is better than session for an API
