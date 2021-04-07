@@ -1,0 +1,8 @@
+{
+  "require": {
+    "lcobucci/jwt": "^4.1",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  }
+}
